@@ -1,7 +1,7 @@
 # 🧪 Team 1 — URL Shortener 🧪
 ## Команда
 
-- Акоста Ширли - shirleyacosta5@gmail.com - SHPATRI
+- Ширли Акоста - shirleyacosta5@gmail.com - SHPATRI
 
 ## Дизайн документ
 
