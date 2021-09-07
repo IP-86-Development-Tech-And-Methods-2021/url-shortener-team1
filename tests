@@ -1,0 +1,18 @@
+}
+
+  // Тесты
+  public static void main(String args[]) {
+    URLShortener u = new URLShortener(5, "www.customUrl.com/");
+    String urls[] = { "www.facebook.com/", "www.google.com",
+      "http://www.youtube.com", "www.youtube.com/", "www.amazon.com",
+      "www.twitter.com/page1.html", "www.twitter.com/page2.html",
+      "www.mercedes.in", "www.gmail.com", "www.twitter.com",
+      "www.wesbos.com", "www.habrahabr.com", "www.someurl.com" };
+
+    for (int i = 0; i < urls.length; i++) {
+      System.out.println("Полный:" + urls[i] + "\tКастомный: "
+        + u.shortenURL(urls[i]) + "\tСокращенный: "
+        + u.expandURL(u.shortenURL(urls[i])));
+    }
+  }
+}
