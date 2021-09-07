@@ -2,6 +2,7 @@
 ## Команда
 
 - Ширли Акоста - shirleyacosta5@gmail.com - SHPATRI
+- Акин Зия Хасан - ziyahasanakin016@gmail.com
 
 ## Дизайн документ
 
