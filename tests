@@ -4,13 +4,13 @@
 	
 
 	        var url = new Url();
-	        url.setLongUrl("https://github.com/AnteMarin/UrlShortener-API");
+	        url.setLongUrl("https://github.com/ziyahasanakin/UrlShortener-API");
 	        url.setCreatedDate(new Date());
 	        url.setId(7);
 	
 
 	        when(mockUrlRepository.findById((long) 7)).thenReturn(java.util.Optional.of(url));
-	        assertEquals("https://github.com/AnteMarin/UrlShortener-API", urlService.getOriginalUrl("h"));
+	        assertEquals("https://github.com/ziyahasanakin/UrlShortener-API", urlService.getOriginalUrl("h"));
 	
 
 	    }
